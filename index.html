@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Website Tutorial</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+
+.navbar-inverse{
+	z-index: 500;
+		background-color: #402c99;
+
+}
+
+.navbar {
+	margin-bottom: 0;
+	border-radius: 0;
+	background-color: #402c99;
+	color:#FFF;
+padding: 1% 0 ;
+font-size: 1.2em;
+border: 0;
+}
+.navbar-brand {
+float: left;
+width: 50px;
+min-height: 55px;
+padding: 0 15px 5px;
+}
+.navbar-inverse .navbar-nav .active a ,.navbar-inverse .navbar-nav .active a:foucs ,.navbar-inverse .navbar-nav .active a:hover {
+	color: #FFF;
+	background-color:#402c99;
+
+
+}
+.navbar-inverse .navbar-nav li a {
+	color: #D5D5D5;
+}
+
+.carousel-caption {
+	top:50%;
+	transform: translateY(-50%);
+	
+}
+.carousel-caption p {
+font-size: 16px;
+}
+.btn {
+	font-size: 18px;
+	color: #FFF;
+	padding: 12px 22px;
+	background:#402c99;
+	border: 2px solid #FFF;
+}
+#icon {
+	max-width: 200px;
+	margin: 1% auto;
+}
+.container {
+	margin: 3% auto;
+}
+
+footer{
+	background-color: #402c99;
+
+	width: 100%
+	padding: 3%;
+	color:#FFF;
+
+
+}
+.fa {
+	padding: 20px;
+	font-size: 30px;
+	color: white;
+}
+.fa:hover {
+	color: pink;
+	text-decoration: none;
+}
+
+@media (max-width: 600px){
+	.carousel-caption {
+		display: none;
+	}
+	#icon {
+		max-width: 150px;
+	}
+	h4{
+		font-size: 1.7em;
+	}
+}
+  /* The sticky class is added to the header with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+
+
+</style>
+
+</head>
+<body>
+<nav class="navbar-inverse" id="myHeader" >
+	<div class="container-fluid">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+				<span class="icon-bar"></span> 
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="#1"> <img src="img/logo.png" style="max-width: 700%;"ك></a>
+		</div>
+		<div class="collapse navbar-collapse" id="myNavbar">
+			<ul class="nav navbar-nav navbar-right" id="myDIV">
+				<li class="btn active"><a href="#"> Home </a></li>
+				<li class="btn"><a href="#lo">about figuers</a></li>
+			    <li class="btn"><a href="#3">contact</a></li>
+
+			</ul>	
+		</div>
+	</div>
+</nav>
+
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel"> 
+	<!--- de slider mash.hoora fe al-bootstrap -->
+
+<div class="carousel-inner" role="listbox" id="1">
+	<div class="item active"> 
+		<img src="img/ins.jpg" style="width:100%; height:20%;" >
+		<div class="carousel-caption">
+			<h1>Inspirational Figures</h1>
+			<br>
+			<p>Inspiration has many faces, spans many centuries, and lives big and small. <br> in this website we'll let you go through and explore and learn more about amazing people who change our look to life</p>
+			<br>
+			<a href="#lo"><button type="button" class="btn btn-default">Get Started</button></a>
+		</div>
+</div> <!--- end of active --> 
+
+	
+</div>
+
+</div> <!--- end of slider --> 
+
+
+
+<div id="lo" class=container>
+<div class="row">
+	<div class="col-md-6">
+		<h3 style="font-family:Verdana;font-weight: bold; ">Find Your Inspiration.</h3>
+		<p style="font-size:20px; color: black; ">A key ingredient for living an inspired, bold life is to find role models that we can emulate and imitate .people who help us find ourselves in the process. In life, we determine our course of action by observing and practicing the behavior of those who strike a chord with us; people whose stories and examples ignite the fire inside of our bellies. In this website we'll show you some of the amazing rolemodels and inspirational people. </p>
+		
+	</div>
+	<div class="col-md-6">
+		<img src="img/1.jpg" class="img-responsive" >
+	</div>
+</div>
+</div>
+
+<div class=container>
+<div class="row">
+
+	<div class="col-lg-4 col-md-3 col-sm-6 col-xs-12">
+		<img src="img/a.jpg" class="img-responsive" >
+	</div>
+		<div class="col-lg-8 col-md-3 col-sm-6 col-xs-12 ">
+		<h4 style="font-weight:bold; ">Albert Einstein</h4>
+		<p style="font-size: 18px;">Albert Einstein was a German-born theoretical physicist. Einstein's work is also known for its influence on the philosophy of science. He developed the general theory of relativity, one of the two pillars of modern physics. Einstein is best known in popular culture for his mass–energy equivalence formula E = mc². He received the 1921 Nobel Prize in Physics for his "services to theoretical physics", in particular his discovery of the law of the photoelectric effect, a pivotal step in the evolution of quantum theory. <a href="https://en.wikipedia.org/wiki/Albert_Einstein">know more about him in wikipedia</a></p>
+	</div>
+	
+</div>
+<br>
+<div class="row">
+
+	<div class="col-lg-4 col-md-3 col-sm-6 col-xs-12">
+		<img src="img/m.jpg" class="img-responsive" >
+	</div>
+		<div class="col-lg-8 col-md-3 col-sm-6 col-xs-12 ">
+		<h4 style="font-weight:bold; ">Martin Luther King, Jr.</h4>
+		<p style="font-size: 18px;">Martin Luther King Jr. (born Michael King Jr., January 15, 1929 – April 4, 1968) was an American Baptist minister and activist who was a leader in the Civil Rights Movement. He is best known for his role in the advancement of civil rights using nonviolent civil disobedience based on his Christian beliefs. King became a civil rights activist early in his career. He led the 1955 Montgomery bus boycott and helped found the Southern Christian Leadership Conference (SCLC) in 1957, serving as its first president. <a href="https://en.wikipedia.org/wiki/Martin_Luther_King_Jr.">know more about him in wikipedia</a></p>
+	</div>
+</div>
+
+	<br>
+<div class="row">
+
+	<div class="col-lg-4 col-md-3 col-sm-6 col-xs-12">
+		<img src="img/ma.jpg" class="img-responsive" >
+	</div>
+		<div class="col-lg-8 col-md-3 col-sm-6 col-xs-12 ">
+		<h4 style="font-weight:bold; ">Muhammad </h4>
+		<p style="font-size: 18px;">Muhammad, full name Abū al-Qāsim Muḥammad ibn ʿAbd Allāh ibn ʿAbd al-Muṭṭalib ibn Hāshim, from Mecca, unified Arabia into a single religious polity under Islam. Believed by Muslims and Bahá'ís to be a prophet and messenger of God, Muhammad is almost universally considered by Muslims as the last prophet sent by God to mankind. While non-Muslims generally regard Muhammad as the founder of Islam, Muslims consider him to have restored the unaltered original monotheistic faith of Adam, Abraham, Moses, Jesus, and other prophets in Islam. <a href="https://en.wikipedia.org/wiki/Muhammad_in_Islam">know more about him in wikipedia</a></p>
+	</div>
+</div>
+	
+
+
+<br>
+<div class="row">
+
+	<div class="col-lg-4 col-md-3 col-sm-6 col-xs-12">
+		<img src="img/b.jpg" class="img-responsive" >
+	</div>
+		<div class="col-lg-8 col-md-3 col-sm-6 col-xs-12 ">
+		<h4 style="font-weight:bold; ">Bill Gates</h4>
+		<p style="font-size: 18px;">William Henry "Bill" Gates III is an American business magnate, philanthropist, investor, computer programmer, and inventor. Gates originally established his reputation as the co-founder of Microsoft, the world’s largest PC software company, with Paul Allen. During his career at Microsoft, Gates held the positions of chairman, CEO and chief software architect, and was also the largest individual shareholder until May 2014. He has also authored and co-authored several books. Today he is consistently ranked in the Forbes list of the world's wealthiest people and was the wealthiest overall from 1995 to 2014—excluding a few brief periods post-2008. <a href="https://en.wikipedia.org/wiki/Bill_Gates">know more about him in wikipedia</a></p>
+	</div>
+	
+</div>
+
+
+<br>
+<div class="row">
+
+	<div class="col-lg-4 col-md-3 col-sm-6 col-xs-12">
+		<img src="img/w.jpg" class="img-responsive" >
+	</div>
+		<div class="col-lg-8 col-md-3 col-sm-6 col-xs-12 ">
+		<h4 style="font-weight:bold; ">Walt Disney</h4>
+		<p style="font-size: 18px;">Walter Elias "Walt" Disney was an American entrepreneur, cartoonist, animator, voice actor, and film producer. As a prominent figure within the American animation industry and throughout the world, he is regarded as a cultural icon, known for his influence and contributions to entertainment during the 20th century. As a Hollywood business mogul, he and his brother Roy O. Disney co-founded The Walt Disney Company. As an animator and entrepreneur, Disney was particularly noted as a filmmaker and a popular showman, as well as an innovator in animation and theme park design. He and his staff created numerous fictional characters including Mickey Mouse, Donald Duck, and Goofy.<a href="https://en.wikipedia.org/wiki/Walt_Disney">know more about him in wikipedia</a></p>
+	</div>
+	
+</div>
+
+
+<br>
+<div class="row">
+
+	<div class="col-lg-4 col-md-3 col-sm-6 col-xs-12">
+		<img src="img/b.jpg" class="img-responsive" >
+	</div>
+		<div class="col-lg-8 col-md-3 col-sm-6 col-xs-12 ">
+		<h4 style="font-weight:bold; ">Thomas Edison</h4>
+		<p style="font-size: 18px;">Thomas Alva Edison was an American inventor and businessman. He developed many devices that greatly influenced life around the world, including the phonograph, the motion picture camera, and a long-lasting, practical electric light bulb. Dubbed "The Wizard of Menlo Park", he was one of the first inventors to apply the principles of mass production and large-scale teamwork to the process of invention, and because of that, he is often credited with the creation of the first industrial research laboratory.  <a href="https://en.wikipedia.org/wiki/Thomas_Edison">know more about him in wikipedia</a></p>
+	</div>
+	
+</div>
+
+
+
+<br>
+<div class="row">
+
+	<div class="col-lg-4 col-md-3 col-sm-6 col-xs-12">
+		<img src="img/l.jpg" class="img-responsive" >
+	</div>
+		<div class="col-lg-8 col-md-3 col-sm-6 col-xs-12 ">
+		<h4 style="font-weight:bold; ">Leonardo da Vinci</h4>
+		<p style="font-size: 18px;">Leonardo di ser Piero da Vinci was an Italian polymath, painter, sculptor, architect, musician, mathematician, engineer, inventor, anatomist, geologist, cartographer, botanist, and writer. He is widely considered to be one of the greatest painters of all time and perhaps the most diversely talented person ever to have lived. His genius, perhaps more than that of any other figure, epitomized the Renaissance humanist ideal. Leonardo has often been described as the archetype of the Renaissance Man, a man of "unquenchable curiosity" and "feverishly inventive imagination". <a href="https://en.wikipedia.org/wiki/Leonardo_da_Vinci">know more about him in wikipedia</a></p>
+	</div>
+	
+</div>
+
+
+<br>
+<div class="row">
+
+	<div class="col-lg-4 col-md-3 col-sm-6 col-xs-12">
+		<img src="img/o.jpg" class="img-responsive" >
+	</div>
+		<div class="col-lg-8 col-md-3 col-sm-6 col-xs-12 ">
+		<h4 style="font-weight:bold; ">Oprah Winfrey</h4>
+		<p style="font-size: 18px;">Oprah Gail Winfrey is an American media proprietor, talk show host, actress, producer, and philanthropist. Winfrey is best known for her multi-award-winning talk show The Oprah Winfrey Show, which was the highest-rated program of its kind in history and was nationally syndicated from 1986 to 2011. Dubbed the "Queen of All Media", she has been ranked the richest African-American of the 20th century, the greatest black philanthropist in American history, and is currently North America's only black billionaire. She is also, according to some assessments, the most influential woman in the world <a href="https://en.wikipedia.org/wiki/Oprah_Winfrey">know more about her in wikipedia</a></p>
+	</div>
+	
+</div>
+
+
+</div>
+
+<div class=container>
+<div class="row">
+	<h4> <a href="#hidden" data-toggle="collapse">care to learn more ?</a></h4>
+	<div id="hidden" class="collapse">
+		<h4>here's cool thiing about bootstrap..</h4>
+		<p>jirjeifrjetoinjgfndojgnoenrognrgnot
+		njonrtnleljrejrltlreljreljlrjelrlrjlt
+	nlrennltnlerntlrenrtnertennnnnjfnlgnlrnjlrngljntjlngtjlnlgnntlgjnlrjtgjngjnlgrtljrtnlntgrntgljnrtntrngnljnltnjlntjlntgjngtl</p>
+		<p>eklrjtlkejrtljlrjtntn
+		gljrngnttennnnnnnnnnnnnnnnnngj
+	5niiiiiiiiiiiiiiiitljrnt5otjnl5ntln5tin5tkntlk5n5ointi5knltntkrt5tipp5nt5kktltnnitnio5ntlektnereito5tnintlkktnoi</p>
+</div>
+		
+	</div>
+	</div>
+
+
+
+<footer class="container-fluid text-center" id="3">
+	<div class="row">
+				<div class="col-sm-4">
+								<h3>contact us </h3>
+<h4> you can reach me in one of these social media accounts</h4>
+</div>
+
+		<div class="col-sm-4">
+			<a href="#" class="fa fa-facebook"></a>
+						<a href="#" class="fa fa-twitter"></a>
+			<a href="#" class="fa fa-instagram"></a>
+			<a href="#" class="fa fa-google"></a>
+
+		</div>
+		
+	</div>
+</footer>
+<script>
+window.onscroll = function() {myFunction()};
+
+var header = document.getElementById("myHeader");
+var sticky = header.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
+
+// Get the container element
+var btnContainer = document.getElementById("myDIV");
+
+// Get all buttons with class="btn" inside the container
+var btns = btnContainer.getElementsByClassName("btn");
+
+// Loop through the buttons and add the active class to the current/clicked button
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function() {
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+} 
+</script>
+</body>
+</html>
